@@ -1,0 +1,131 @@
+h1 {
+  color: rgb(75, 97, 219);
+  font-family: cursive;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+h3 {
+  color: rgb(109, 109, 109);
+  font-family: cursive;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.firstp {
+  color: rgb(28, 160, 79);
+  font-family: cursive;
+  font-weight: bold;
+  text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000;
+}
+
+body {
+  background-image: url("https://img.freepik.com/premium-psd/empty-background-with-soft-lights-psd-studio-clean-horizontal-desktop-wallpaper-4k-backdrop_691560-27.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+#grid-container #header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#grid-container #subtitle-container {
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#grid-container #soon-container {
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  align-items: center;
+}
+
+#list {
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav {
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#slideshow #top-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1050px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+#slideshow #photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 870px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+#slideshow .photo {
+  display: none;
+  width: 100%;
+  flex: 1;
+}
+
+#slideshow .photo.active {
+  display: block;
+}
+
+#dots {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 5px 10px;
+  padding-right: 0;
+  border-radius: 2px;
+}
+
+#dots .dot {
+  width: 12px;
+  height: 12px;
+  background-color: #3a3a3a;
+  display: inline-block;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.arrow {
+  margin: 0 10px;
+  width: 65px;
+  height: 50px;
+}
+
+.arrow,
+.dot {
+  cursor: pointer;
+}
